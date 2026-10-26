@@ -1,1 +1,1 @@
-"# Java-Daily-Practice-and-Assignments" 
+"# Java-Daily-Practice-Assignment" 
