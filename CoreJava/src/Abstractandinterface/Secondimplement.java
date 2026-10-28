@@ -6,7 +6,7 @@ public class Secondimplement extends Firstimplement {
 	
 	@Override
 	public void Empdetails(String Feedback,String Name) {
-		this.Feedback=Feedback+"this is the end";
+		this.Feedback=Feedback+"this is the end of the story";
 		this.Name=Name + "welcome";
 	}
 	
