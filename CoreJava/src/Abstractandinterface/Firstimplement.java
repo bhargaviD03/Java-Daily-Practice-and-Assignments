@@ -18,5 +18,16 @@
 package Abstractandinterface;
 
 public class Firstimplement extends AbstractEmp {
+
+	@Override
+	public void Empdetails(String Feedback, String Name) {
+	
+	}
+
+	@Override
+	public void display() {
+	
+		
+	}
 	
 }
