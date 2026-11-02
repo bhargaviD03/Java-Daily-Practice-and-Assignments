@@ -9,7 +9,7 @@ public class PrivateClass {
 		 System.out.println("Value:" + Value);
 		 
 	 }
-
+ 
 	public static void main(String[] args) {
 		
 		PrivateClass privateClass = new PrivateClass();

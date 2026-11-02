@@ -20,7 +20,7 @@ public interface Calculator {
 //		
 //		System.out.println("static method");
 //		
-//	}
+//	}  
 //	
 //	default void call() {
 //		

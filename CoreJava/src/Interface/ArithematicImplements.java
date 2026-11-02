@@ -22,3 +22,4 @@ public class ArithematicImplements implements Calculator,SubInterface {
 	}
 
 }
+  
