@@ -86,12 +86,25 @@ public class Loops {
 //		}
 //	}
 
+	public void ForLoop() {
+		for(int i=0;i<10;i++) {
+			
+			if(i%2==1) {
+				continue;
+			}
+			
+			System.out.println(i);
+		}
+		
+	}
+	
 	
 	public static void main(String[] args) {
 		Loops L = new Loops();
-		L.Loop();
-		L.Switch();
+//		L.Loop();
+//		L.Switch();
 //		L.While();
+		L.ForLoop();
 		}
 
 }
