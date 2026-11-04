@@ -1,5 +1,6 @@
 package loopTask;
 import java.util.Scanner;
+
 public class Loop{
 	
 	
