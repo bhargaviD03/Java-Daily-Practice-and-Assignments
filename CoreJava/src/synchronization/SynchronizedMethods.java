@@ -47,7 +47,7 @@ class Others extends Thread{
 		ba.bathroom();
 	}
 }
-public class Synchronized {
+public class SynchronizedMethods {
 	public static void main(String[] args) {
 		
 	Bathroom b = new Bathroom();
