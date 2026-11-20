@@ -21,7 +21,7 @@ synchronized void  food() {
 	} catch (InterruptedException e) {
 		e.printStackTrace();
 	}
-
+	
 }
 
 synchronized void location() {
