@@ -59,12 +59,13 @@ public class FileHandling {
 		System.out.println("Enter the file name you need to Read:");
 		String fileRead= sc.nextLine();
 		FileReader filename = new FileReader(fileRead);
-		System.out.println(filename.readAllAsString());
+		String previous = filename.readAllAsString();
+		System.out.println(previous);
 		filename.close();
 		FileWriter files = new FileWriter(fileRead);
 		System.out.println("Enter the text you need to write:");
 		String filewrite = sc.nextLine();
-		files.write(filewrite);
+		files.write(previous+" "+filewrite);
 		files.close();
 		System.out.println(filename+""+files);
 		
