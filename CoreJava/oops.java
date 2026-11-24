@@ -1,0 +1,1 @@
+Encapsulation,inheritance,Abstraction,polymorphism these are the four pillers of oops

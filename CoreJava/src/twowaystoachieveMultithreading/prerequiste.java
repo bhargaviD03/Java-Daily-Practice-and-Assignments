@@ -2,7 +2,7 @@ package twowaystoachieveMultithreading;
 
 public class prerequiste {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		Thread t = Thread.currentThread();
 		System.out.println(t.getName());
 		t.setName("add");
