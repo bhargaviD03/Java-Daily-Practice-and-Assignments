@@ -2,7 +2,7 @@ package collections;
 
 import java.util.ArrayList;
 
-public class Array {
+public class Arraylist {
 	//ArrayList allow duplicates,insert,index,order
 	// ArrayList<> is a wrapper class
 	public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Array {
 			
 			System.out.println(arr.size());
 			System.out.println(arr.isEmpty());
-//			arr.clear();
+			arr.clear();
 			System.out.println(arr);
 			System.out.println(arr.clone());
 			System.out.println(arr.indexOf("Loops"));
