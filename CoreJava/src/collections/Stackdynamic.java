@@ -1,5 +1,7 @@
 package collections;
 
+import java.util.Stack;
+
 public class Stackdynamic {
 
 //	### **Stack**
@@ -25,7 +27,7 @@ public class Stackdynamic {
 	//- search()
 	//
 	public static void main(String[] args) {
-		Stack<Integer>
+		Stack<Integer> LIFO= new Stack<>();
 	}
 
 }
